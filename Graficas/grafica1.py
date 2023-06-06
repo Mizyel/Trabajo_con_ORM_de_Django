@@ -25,7 +25,7 @@ plt.show()
 x = np.array([0, 1, 2, 3])
 y = np.array([3, 8, 1, 10])
 
-plt.subplot(1, 2, 1) #tamaño de la tabla
+plt.subplot(2, 1, 1) #tamaño de la tabla
 plt.plot(x,y, '*:g') #llamamos al eje x y eje y con el color verde y una estrella
 plt.grid() #lineas de fondo
 plt.title("Sports Watch Data", loc = 'left') #titulo y posición
@@ -36,7 +36,7 @@ plt.ylabel("Eje Y")
 x = np.array([0, 1, 2, 3])
 y = np.array([10, 20, 30, 40])
 
-plt.subplot(1, 2, 2)
+plt.subplot(2, 1, 2)
 plt.plot(x,y)
 
 plt.show()
@@ -60,7 +60,7 @@ plt.show()
 import matplotlib.pyplot as plt
 import numpy as np
 
-y = np.array([35, 25, 25, 15])
+y = np.array([5, 25, 25, 15])
 mylabels = ["Apples", "Bananas", "Cherries", "Dates"]
 myexplode = [0.5, 0, 0, 0]
 

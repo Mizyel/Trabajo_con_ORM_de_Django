@@ -23,8 +23,10 @@ from appORM import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.consultas),
-    path('grafica1/', views.grafica1),
+    # path('grafica1/', views.grafica1),
     path('grafica2/', views.grafica2),
+    path('googleGrafica/', views.googleGrafica),
+    path('grafica1Google/', views.grafica1Google),
 ]
 
 
